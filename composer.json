@@ -1,0 +1,43 @@
+{
+  "name": "ledc/likeadmin",
+  "type": "library",
+  "keywords": [
+    "webman plugin",
+    "likeadmin"
+  ],
+  "homepage": "https://iyuu.cn",
+  "license": "MIT",
+  "description": "Webman plugin ledc/likeadmin；webman框架插件：兼容likeadmin用户的中间件",
+  "authors": [
+    {
+      "name": "david",
+      "email": "nz1985@qq.com",
+      "homepage": "https://iyuu.cn",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "email": "nz1985@qq.com",
+    "issues": "https://gitee.com/ledc/webman_plugin_likeadmin/issues",
+    "source": "https://gitee.com/ledc/webman_plugin_likeadmin"
+  },
+  "require": {
+    "php": ">=8.1",
+    "ext-json": "*",
+    "ext-pdo": "*",
+    "workerman/webman-framework": "^1.5.0",
+    "illuminate/database": "^10.14",
+    "illuminate/pagination": "^10.14",
+    "illuminate/events": "^10.14",
+    "firebase/php-jwt": "^6.8",
+    "ext-ctype": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "David\\LikeAdmin\\": "src"
+    },
+    "files": [
+      "src/helpers.php"
+    ]
+  }
+}
